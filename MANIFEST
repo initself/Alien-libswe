@@ -1,0 +1,7 @@
+alienfile
+install.sh
+lib/Alien/libswe.pm
+Makefile.PL
+MANIFEST			This list of files
+README.pod
+t/libswe.t
