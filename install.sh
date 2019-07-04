@@ -2,7 +2,7 @@
 perl Makefile.PL
 make
 make test
-#make install
+make install
 make clean
 rm -rf _alien
 rm Makefile.old
