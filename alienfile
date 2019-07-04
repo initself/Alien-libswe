@@ -11,9 +11,9 @@ share {
 
   plugin Extract => format => 'tar.gz';
   build [
-    [ '%{make}' ],
-    [ '%{mkdir} %{.install.prefix}/lib/' ],
-    [ '%{cp} libswe.a %{.install.prefix}/lib/' ],
+    [ 'cd src && %{make}' ],
+    [ '%{make_path} %{.install.prefix}/lib/' ],
+    [ '%{cp} src/libswe.a %{.install.prefix}/lib/' ],
   ];
   
   gather sub {
