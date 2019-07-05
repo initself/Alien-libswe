@@ -6,10 +6,7 @@ Alien::libswe - Build and install Swiss Ephemeris shared library
 
 =head1 SYNOPSIS
 
-To install:
-
-  sudo sh install.sh
-
+Install with cpanm
 
 =head1 DESCRIPTION
 
