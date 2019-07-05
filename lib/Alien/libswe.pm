@@ -11,9 +11,15 @@ Alien::libswe - Build and install Swiss Ephemeris shared library
 
 =cut
 
-our $VERSION = "0.004";
+our $VERSION = "0.006";
 
 =head1 SYNOPSIS
+
+Build and install Swiss Ephemeris shared library
+
+=head1 DESCRIPTION 
+
+See L<Alien::Build::Manual::AlienUser>
 
 Build and install Swiss Ephemeris shared library
 

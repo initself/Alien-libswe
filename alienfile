@@ -3,7 +3,7 @@ use alienfile;
 plugin 'Build::Make' => make_type => 'gmake';
 
 share {
-  start_url 'https://www.astro.com/ftp/swisseph/';
+  start_url 'https://www.astro.com/ftp/swisseph';
   plugin 'Download' => (
     filter => qr/^swe_unix_src_.*\.tar\.gz$/,
     version => qr/([0-9\.]+)/,

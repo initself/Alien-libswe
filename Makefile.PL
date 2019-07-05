@@ -20,6 +20,7 @@ WriteMakefile($abmm->mm_args(
   PREREQ_PM => {
     'Alien::Base' => 0,
     'parent' => 0,
+    'Sort::Versions' => 1.62,
   },
   TEST_REQUIRES => {
     'Test::More' => 0.88,
