@@ -17,9 +17,6 @@ WriteMakefile($abmm->mm_args(
     'ExtUtils::MakeMaker' => 6.64,
     'Alien::Build::MM' => 0,
   },
-  BUILD_REQUIRES => {
-    'Template' => 0,
-  },
   PREREQ_PM => {
     'Alien::Base' => 0,
     'parent' => 0,

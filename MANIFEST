@@ -1,7 +1,10 @@
 alienfile
 install.sh
 lib/Alien/libswe.pm
+Makefile
 Makefile.PL
 MANIFEST			This list of files
-README.pod
+MANIFEST.SKIP
+MYMETA.json
+MYMETA.yml
 t/libswe.t
