@@ -1,4 +1,4 @@
-Makefile
+^Makefile$
 _alien/state.json
 README.pod
 .git/*
