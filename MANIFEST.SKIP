@@ -1,3 +1,6 @@
 _alien/state.json
 README.pod
 .git/*
+MANIFEST.bak
+MYMETA.yml
+MYMETA.json
